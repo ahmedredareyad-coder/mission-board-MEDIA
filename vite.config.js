@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/mission-board-MEDIA/',   // اسم المستودع زي ما هو
+  base: '/mission-board-MEDIA/', // اسم الريبو بالضبط
 })
