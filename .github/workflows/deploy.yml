@@ -19,7 +19,6 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
-      # استخدم npm install بدلاً من npm ci (لأن غالباً مفيش package-lock.json)
       - run: npm install
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
